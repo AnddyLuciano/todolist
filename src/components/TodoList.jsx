@@ -1,6 +1,6 @@
-export const TodoList = ({todo})=>{
+export const TodoList = ({todo,color})=>{
     return(
-        <div className="">
+        <div className="rounded-md p-2" style={{backgroundColor:"#"+color}}>
             {todo}
         </div>
     )

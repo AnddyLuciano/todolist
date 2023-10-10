@@ -9,5 +9,5 @@ function App() {
     </RecoilRoot>
   );
 }
-export const listState = atom({key:"listState",default:[]})
+export const listState = atom({key:"listState",default:[{todo:"All todo lists",color:"fff"}]})
 export default App;
